@@ -41,7 +41,7 @@ header::after {
 
 .profile-image{
     width: 100px;
-    height: 100px;
+    height: 110px;
     background-color: white;
     border-radius: 50%;
     background-image:url(/assets/IMG_6049.jpg);
@@ -92,6 +92,13 @@ footer {
     border-radius: 8px;
     min-height: 200px;
     overflow: hidden;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.post:hover {
+    transform: translate3d(0,-5px,0);
+    box-shadow: 0 2rem 5rem 0 rgba(0,0,0,.1);
 }
 
 .post-image {
