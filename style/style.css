@@ -41,7 +41,7 @@ header::after {
 
 .profile-image{
     width: 100px;
-    height: 120px;
+    height: 100px;
     background-color: white;
     border-radius: 50%;
     background-image:url(/assets/IMG_6049.jpg);
@@ -91,6 +91,7 @@ footer {
     border: 1px solid #eaecee;
     border-radius: 8px;
     min-height: 200px;
+    overflow: hidden;
 }
 
 .post-image {
@@ -103,6 +104,34 @@ footer {
 
 .post-content {
     flex-basis: 60%;
+    padding: 24px;
     
-    
+}
+
+
+.post-date{
+
+    font-size: 12px;
+    color: #adb5bd;
+    font-weight: 600;
+}
+.post-title {
+    margin-top: 16px;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 600;
+}
+
+.post-title h4{
+    margin: 0;
+
+}
+
+.post-text {
+    margin-top: 4px;
+    color: #495057;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 65px;
+    overflow: hidden;
 }
